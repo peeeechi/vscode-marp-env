@@ -1,0 +1,10 @@
+version: '3'
+services:
+  md:
+    image: ${USER_NAME}/markdown
+    tty: true
+    working_dir: /home/${USER_NAME}/workspace
+    command: /bin/bash
+    volumes:
+      - ./workspace:/home/${USER_NAME}/workspace
+    user: ${USER_NAME}

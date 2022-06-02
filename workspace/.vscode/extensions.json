@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "yzhang.markdown-all-in-one",
+        "marp-team.marp-vscode",
+        "yzane.markdown-pdf",
+        "davidanson.vscode-markdownlint",
+        "christian-kohler.path-intellisense",
+        "shardulm94.trailing-spaces",
+        "hediet.vscode-drawio"
+    ]
+}

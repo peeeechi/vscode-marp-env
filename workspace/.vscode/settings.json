@@ -1,0 +1,13 @@
+{
+    "markdown.marp.enableHtml": true,
+    "markdown.marp.themes": [
+        "marp/theme/custom.css"
+    ],
+    "markdown.marp.exportType": "pdf",
+    "plantuml.jar": "/usr/local/bin/plantuml.jar",
+    "plantuml.exportOutDir": "/docs",
+    "plantuml.exportSubFolder": false,
+    "plantuml.exportFormat": "svg",
+    "plantuml.diagramsRoot": "/docs",
+    "markdown.marp.toolbarButtonForQuickPick": true
+}

@@ -1,0 +1,99 @@
+{
+	"TOC Ignore": {
+		"scope": "markdown",
+		"body": [
+			"<!-- omit in toc -->"
+		],
+		"prefix": "ignore toc",
+		"description": "markdown all in one のTOCから除外するヘッダーへ付与"
+	},
+	"div-class": {
+		"scope": "markdown",
+		"prefix": "div-with-class",
+		"body": [
+			"<div class=\"$1\">",
+			"",
+			"",
+			"",
+			"</div>",
+		],
+		"description": "div with class name"
+	},
+	"details": {
+		"scope": "markdown,html",
+		"prefix": "details",
+		"body": [
+			"<details><summary>$1</summary>",
+			"$2",
+			"</details>"
+		],
+		"description": "details snipet"
+	},
+	"marp: div-section": {
+		"scope": "markdown",
+		"prefix": "div-with-section-class",
+		"body": [
+			"<div class=\"section\">",
+			"",
+			"$1",
+			"",
+			"</div>",
+		],
+		"description": "div section for marp"
+	},
+	"marp: div-col-2": {
+		"scope": "markdown",
+		"prefix": "col-2",
+		"body": [
+			"<div class=\"columns-2\">",
+			"",
+			"<!-- left -->",
+			"<div class=\"section\">",
+			"",
+			"$1",
+			"",
+			"</div>",
+			"",
+			"<!-- right -->",
+			"<div class=\"section\">",
+			"",
+			"$2",
+			"",
+			"</div>",
+			"",
+			"</div>"
+		],
+		"description": "2 columns layout for marp"
+	},
+	"marp: div-col-3": {
+		"scope": "markdown",
+		"prefix": "col-3",
+		"body": [
+			"<div class=\"columns-3\">",
+			"",
+			"<!-- left -->",
+			"<div class=\"section\">",
+			"",
+			"$1",
+			"",
+			"</div>",
+			"",
+			"<!-- center -->",
+			"<div class=\"section\">",
+			"",
+			"$2",
+			"",
+			"</div>",
+			"",
+			"<!-- right -->",
+			"<div class=\"section\">",
+			"",
+			"$3",
+			"",
+			"</div>",
+			"",
+			"</div>"
+		],
+		"description": "3 columns layout for marp"
+	}
+}

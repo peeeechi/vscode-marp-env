@@ -1,0 +1,60 @@
+/* @theme custom */
+
+@import 'default';
+
+.columns-2 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.columns-3 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 40px;
+    vertical-align: text-top;
+    position: absolute;
+    top: 5%;
+    width: 100%;
+}
+
+
+h2::after {
+    display: block;
+    position: absolute;
+    content: "";
+    /* top: 50%; */
+    width: 90%;
+    height: 1px;
+    background-color: #111111;
+}
+
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+h5 {
+    font-size: 24px;
+    font-style: initial;
+}
+
+li, p, tr, td {
+    font-size: 24px;
+}
+
+code, pre {
+    font-size: 24px;
+}
